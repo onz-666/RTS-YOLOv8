@@ -1,0 +1,7 @@
+path: /opt/data/private/lz/YOLOv8/rts_yolov8/RTSP # Path for dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 8
+names: ['no helmet', 'helmet', 'safebelt', 'offground', 'ground', 'red_armband', 'person', 'safety_clothes']
