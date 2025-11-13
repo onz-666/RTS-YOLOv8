@@ -2,10 +2,10 @@ from ultralytics_mod.models.yolo import YOLO
 import os
 import glob
 
-image_dir = './rts_yolov8/RTSP/images/test'
-output_dir = './val_folder/val_results'
+image_dir = './RTPE/images/test'
+output_dir = './predict/results'
 
-models = ['./runs/detect_1012/RTS-YOLOv8/weights/best.pt', './runs/detect_1012/YOLOv8s/weights/best.pt']
+models = ['./runs/detect/RTS-YOLOv8/weights/best.pt', './runs/detect/YOLOv8s/weights/best.pt']
 
 os.makedirs(output_dir, exist_ok=True)
 
