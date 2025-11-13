@@ -12,7 +12,7 @@ Source code for RTS-YOLOv8, a YOLOv8-based model for real-time railway traction 
 
 - **Size**: 9600 images/videos from urban cameras (Helmet Wearing Detection Dataset[1], High-altitude operation and safety belt wearing dataset[2], SFCHD-SCALE Dataset[3]).
 - **Classes**: 8 (no helmet, helmet, safebelt, offground, ground, red_armband, person, safety_clothes).
-- **Splits**: Train (8,000 imgs), Val (800), Test (800). COCO annotations.
+- **Splits**: Train (8,000 imgs), Val (800), Test (800). YOLO format annotations.
 - **Access**: `./RTPE_DataSet.tar` (YAML config: `./rts_yolov8/RTPE_Dataset.yaml.yaml`).
 - **License**: CC-BY 4.0.
 
