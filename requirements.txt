@@ -1,11 +1,12 @@
 #pip install -r requirements.txt
 # Ultralytics requirements
 # Usage: pip install -r requirements.txt
- 
-ultralytics==8.3.227
-tqdm==4.67.1
+
+python==3.8.2
 torch==2.4.1+cu124
 torchvision==0.19.1+cu124
+ultralytics==8.3.227
+tqdm==4.67.1
 seaborn==0.13.2
 pandas==2.0.3
 pytz==2025.2
