@@ -134,7 +134,8 @@ The RTS-YOLOv8s model demonstrates superior performance on the RTPE dataset, wit
 ```
 
 ## License & Contact
-
-MIT License. Contact: lei06z@163.com. Issues: GitHub.
+- **Code**: MIT License (see [LICENSE](LICENSE)).
+- **Dataset**: CC-BY 4.0 (see [LICENSE.dataset](LICENSE.dataset)).
+Contact: lei06z@163.com. Issues: GitHub.
 
 *Updated: Nov 2025*
