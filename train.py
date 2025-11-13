@@ -7,12 +7,12 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1"
 project_save = "./runs/detect_1012"
 
 dataset =  [
-		"./rts_yolov8/totaldataset.yaml",
+		".RTPE_Dataset.yaml",
             ]
 
 model_config = ["./rts_yolov8/yolov8s.yaml",
                 "./rts_yolov8/yolov5s.yaml",
-                "./rts_yolov8/yolov8s_mbnv4_eca_bifpn.yaml",
+                "./rts_yolov8/rts_yolov8s.yaml",
                 "./rts_yolov8/RTS-YOLOv8s+PIoU.yaml",
                 "./rts_yolov8/RTS-YOLOv8s+PIoU+P2.yaml",
                 "./rts_yolov8/RTS-YOLOv8s+PIoU+P2+SPD.yaml",
